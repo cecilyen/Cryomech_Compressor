@@ -27,7 +27,7 @@ try:
     from_email = "xxxu@"
     to_email = "xxxn@"
 except:
-    smtp = smtplib.SMTP(mail_host2,mail_port)
+    t = smtplib.SMTP(mail_host2,mail_port)
 #    t.set_debuglevel(1)
     from_email = "xxx@"
     to_email = "xxx@"
